@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+      <div class="container">
+        <div class="logo navbar-brand">
+          <a href="#" class="nav-link">
+            <i class="fa-solid fa-house"></i>
+          </a>
+        </div>
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto text-center">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link border-bottom active"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="blogs.html" class="nav-link border-bottom">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input type="search" class="form-control" placeholder="Search..." />
+            <button type="button " class="btn btn-warning ms-1">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end-->
+
+    <!-- header start -->
+    <header id="header">
+      <div class="text-center header-content px-4">
+        <h1 class="display-4 fw-bold">Awesome Blog</h1>
+
+        <div class="col-lg-6 mx-auto">
+          <p class="lead">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            aspernatur voluptas quibusdam nisi voluptatibus suscipit debitis,
+            nihil neque natus, voluptates repudiandae minus veniam est rerum
+            magnam officiis. Expedita, nobis quam.
+          </p>
+          <div class="buttons gap-2 d-grid d-md-block mb-5">
+            <button type="button" class="btn btn-primary px-3">Button</button>
+            <button type="button" class="btn btn-outline-dark px-3">
+              Button
+            </button>
+          </div>
+          <div class="overflow-hidden" style="max-height: 30vh">
+            <div class="container">
+              <img
+                src="img/bg.png"
+                class="img-fluid border border-rounded mb-5"
+                width="700px"
+                height="500px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main-start -->
+    <main id="main">
+      <div class="bg-dark text-white">
+        <div class="col-lg-6 mx-auto py-5">
+          <div class="main-content text-center px-3 py-5">
+            <p class="display-5 lead">Lorem, ipsum.</p>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              voluptatem unde ducimus quia ipsa, a eos explicabo numquam itaque
+              officia quas officiis praesentium provident! Tempora odit dolor
+              odio consectetur pariatur?
+            </p>
+            <div class="buttons gap-2 d-grid d-md-block">
+              <button type="button" class="btn btn-outline-warning px-3">
+                Button
+              </button>
+              <button type="button" class="btn btn-outline-light px-3">
+                Button
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card-blogs-start -->
+      <div class="container my-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          <div class="col">
+            <div class="card">
+              <img src="img/1.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/2.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/3.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/4.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/5.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/6.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/7.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/1.jpeg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Lorem, ipsum.</p>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque et facere accusantium dolores, dignissimos laboriosam?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card-blogs-end -->
+    </main>
+    <!-- main-end -->
+
+    <!-- footer-start -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container text-center">
+        <span>Tüm Hakları Saklıdır. @2023</span>
+      </div>
+    </footer>
+    <!-- footer-end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
